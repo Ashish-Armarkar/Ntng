@@ -1,0 +1,73 @@
+.loginContainer {
+    max-width: 1200px;
+
+    height: 600px;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+
+}
+
+.formGroup label {
+    color: gray;
+    font-size: 17px;
+    margin: 5px;
+
+}
+
+.formGroup input {
+    width: 100%;
+    font-size: 17px;
+
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.buttonActions label {
+    color: gray;
+}
+
+.customCheckbox:checked {
+    background-color: #4E73DF;
+    /* Indigo background when checked */
+    border-color: #4E73DF;
+    /* Indigo border when checked */
+}
+
+.customCheckbox:focus {
+    box-shadow: 0 0 5px #2e59dc;
+    /* Indigo glow effect on focus */
+}
+
+.indigoButton {
+    background-color: #4E73DF !important;
+    /* Indigo background */
+    border-color: #4E73DF !important;
+    /* Indigo border */
+    color: white !important;
+    /* White text */
+
+    margin-top: 10px;
+
+    border-radius: 20px;
+}
+
+.indigoButton:hover {
+    background-color: #2e59dc !important;
+    /* Darker indigo on hover */
+    border-color: #4E73DF !important;
+}
+
+#remeberLabel {
+    font-size: 12px;
+    text-align: center;
+    color: gray;
+    font-family: nunito;
+    padding: 5px;
+
+}
